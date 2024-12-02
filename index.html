@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Furniture Website</title>
+    <!-- LInk To CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Box Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <header>
+        <a href="#" class="logo">Mel<span>Dian HOME</span></a>
+        <div class="bx bx-menu" id="menu-icon"></div>
+ 
+        <ul class="navbar">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#category">Category</a></li>
+            <li><a href="#payment">Secure Payment</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </header>
+    <!-- Home -->
+    <section class="home" id="home">
+        <div class="home-text">
+            <h1>Designing Spaces,<br><span>Defining Comfort</span></h1>
+            <p>Upgrade your home with elegant furnishings. <br> Shop our latest designs. Discover classy furniture and decor at great prices.<br> Visit the nearest store.</p>
+            <a href="shop" class="btn">Shop Now!</a>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section class="about" id="about">
+        <div class="about-text">
+            <div class="text">
+                <h1>MISSION</h1>
+                <p>Our mission is to provide high-quality, stylish, and functional furniture that enhances the comfort and beauty of every home. We are dedicated to creative designs, exceptional craftsmanship, and sustainability. By putting the needs of our clients first and cultivating a culture of quality, we hope to become a reliable partner in converting living areas into unique havens.                </p>
+            </div>
+            <div class="text">
+                <h1>VISION</h1>
+                <p>To be a global leading brand in home furniture that fosters innovation and creativity while producing comfortable, eco-friendly, and elegant living areas. Our vision for the future is for every home to be exquisitely furnished with unique products that promote sustainability.                </p>
+            </div> 
+            <div class="text">
+                <h1>About Us</h1>
+                <p>Online Shopping made it easy and safe. Choose from online payment Online banking or over the counter.</p><br>
+                <a href="#shop" class="btn">Shop Now!</a>
+            </div>  
+            <div class="social">
+                <a href="https://www.facebook.com/profile.php?id=61569621395277&mibextid=ZbWKwL"><i class='bx bxl-facebook'></i></a>
+                <a href="https://twitter.com"><i class='bx bxl-twitter'></i></a>
+                <a href="https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.instagram.com%2Fmeldianhome%2Fprofilecard%2F%3Figsh%3DZGc5ZWFhZjd6dzh6%26fbclid%3DIwZXh0bgNhZW0CMTAAAR0r-RDzTx6V7N1Xs4qNBnYu6dDnjF-Vy9gLSsqBD0dO_ICvaieeUeClRIw_aem_dD492gkErIuqICyG2JOhOw&h=AT0xaYZp3n5WoLEjlX1_IdYrNaOa2P2jvi7F5yQvGys9whyUS0cIpcJEX3NqGOnrqZKt12Q1MTkr_ur-5e5kzrOrv9s2vgz_JpZPguWNKfaLpJ6uhmCSG9rseILHpYUh4eAP2g"><i class='bx bxl-instagram'></i></a>
+            </div>
+        </div>
+    </section>
+    
+    <section class="category" id="category">
+        <div class="heading">
+            <span>Categories</span>
+        </div>
+        <!-- Categories -->
+        <div class="category-dropdown">
+            <select id="categoryDropdown" onchange="showCategoryImages()">
+                <option value="" selected disabled>Choose a category</option>
+                <option value="livingarea">Living Area</option>
+                <option value="diningarea">Dining Area</option>
+                <option value="bedroom">Beed Room</option>
+                <option value="comfortroom">Comfort Room</option>
+                <option value="livingroom">Living Room</option>
+            </select>
+        </div>
+        <!-- Image Display -->
+        <div class="category-display" id="categoryDisplay">
+            <img src="fr2.jpg" alt="Image 1">
+            <img src="bgr.jpg" alt="Image 2">
+            <img src="img2.png" alt="Image 3">
+            <img src="foot.jpg" alt="Image 4">
+            <img src="bg.jpg" alt="Image 3">
+            <img src="fr1.jpg" alt="Image 4">
+        </div>
+        
+    </section>
+    <!-- Payment -->
+    <section class="payment" id="payment">
+        <div class="heading">
+            <h1>Secure Online Payment</h1>
+        </div>
+        <div class="flex-container">
+            <img src="visa.jpg" alt="Image 1">
+            <img src="bdo.jpg" alt="Image 2">
+            <img src="BPI.jpg" alt="Image 3">
+            <img src="lnbk.jpg" alt="Image 4">
+            <p>Online Shopping made it easy and safe. Choose from online payment Online banking or over the counter.</p>
+        </div>
+    </section>
+    
+    <section class="newsletter" id="contact">
+        <h2>Subscribe To Newsletter</h2>
+        <div class="news-box">
+            <input type="text" placeholder="Enter Your Email...">
+            <a href="#" class="btn">Subscribe</a>
+        </div>
+    </section>
+    <!-- Footer -->
+    <section class="footer" id="footer">
+        <div class="footer-box">
+            <h2>Mel<span>Dian</span></h2>
+            <p>Subscribe and get 20% off for first time users. Get updates on new arrivals, promotions and exclusive offers.</p>
+            <div class="social">
+                <a href="https://www.facebook.com/profile.php?id=61569621395277&mibextid=ZbWKwL"><i class='bx bxl-facebook'></i></a>
+                <a href="https://twitter.com"><i class='bx bxl-twitter'></i></a>
+                <a href="https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.instagram.com%2Fmeldianhome%2Fprofilecard%2F%3Figsh%3DZGc5ZWFhZjd6dzh6%26fbclid%3DIwZXh0bgNhZW0CMTAAAR0r-RDzTx6V7N1Xs4qNBnYu6dDnjF-Vy9gLSsqBD0dO_ICvaieeUeClRIw_aem_dD492gkErIuqICyG2JOhOw&h=AT0xaYZp3n5WoLEjlX1_IdYrNaOa2P2jvi7F5yQvGys9whyUS0cIpcJEX3NqGOnrqZKt12Q1MTkr_ur-5e5kzrOrv9s2vgz_JpZPguWNKfaLpJ6uhmCSG9rseILHpYUh4eAP2g"><i class='bx bxl-instagram'></i></a>
+            </div>
+        </div>
+        <div class="footer-box">
+            <h4>Services:</h4>
+            <li><a href="#">Product</a></li>
+            <li><a href="#">Help & Support</a></li>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">FAQ</a></li>
+        </div>
+        <div class="footer-box">
+            <h4>Product:</h4>
+            <li><a href="#">Sofa's</a></li>
+            <li><a href="#">Chair's</a></li>
+            <li><a href="#">Living Room</a></li>
+            <li><a href="#">Office</a></li>
+        </div>
+        <div class="footer-box contact-info">
+            <h4>Contact:</h4>
+            <span>MelDian</span>
+            <span>+63 9190 12042</span>
+            <span>customerservice@meldianhome.com.ph</span>
+            <h4>Customer Service hours:</h4>
+            <span>Monday - Saturday 9AM to 5PM</span>
+            
+        </div>
+    </section>
+    <div class="copyright">
+        <p>&#169; MelDian. All Right Reserved.</p>
+    </div>
+    <!-- Link JS -->
+    <script src="script.js"></script>
+</body>
+</html>
